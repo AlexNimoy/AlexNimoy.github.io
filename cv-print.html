@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Alexander Polyakov — CV</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 14mm 14mm;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      :root {
+        --ink: #16202e;
+        --muted: #5b6b80;
+        --accent: #0d9488;
+        --line: #d9e1ea;
+        --chip: #eef5f4;
+      }
+      body {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        color: var(--ink);
+        font-size: 12px;
+        line-height: 1.62;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .mono {
+        font-family: "SFMono-Regular", "Consolas", monospace;
+      }
+
+      header {
+        border-bottom: 2px solid var(--accent);
+        padding-bottom: 10px;
+        margin-bottom: 14px;
+      }
+      h1 {
+        font-size: 27px;
+        letter-spacing: 0.3px;
+        color: var(--ink);
+      }
+      .role {
+        color: var(--accent);
+        font-weight: 600;
+        font-size: 13.5px;
+        margin-top: 3px;
+        letter-spacing: 0.2px;
+      }
+      .contacts {
+        margin-top: 9px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px 18px;
+        font-size: 10.6px;
+        color: var(--muted);
+        font-family: "SFMono-Regular", "Consolas", monospace;
+      }
+      .contacts a {
+        color: var(--muted);
+        text-decoration: none;
+      }
+      .contacts b {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      section {
+        margin-top: 18px;
+      }
+      h2 {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1.6px;
+        color: var(--accent);
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 4px;
+        margin-bottom: 10px;
+      }
+      .about {
+        color: var(--ink);
+      }
+
+      .job {
+        margin-bottom: 15px;
+        page-break-inside: avoid;
+      }
+      .job-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 10px;
+      }
+      .job-title {
+        font-weight: 700;
+        font-size: 13px;
+      }
+      .job-title .at {
+        color: var(--accent);
+        font-weight: 600;
+      }
+      .job-date {
+        color: var(--muted);
+        font-size: 10.4px;
+        white-space: nowrap;
+        font-family: "SFMono-Regular", "Consolas", monospace;
+      }
+      .job-sub {
+        color: var(--muted);
+        font-style: italic;
+        font-size: 10.6px;
+        margin: 2px 0 5px;
+      }
+      ul {
+        list-style: none;
+      }
+      .job li {
+        position: relative;
+        padding-left: 13px;
+        margin-bottom: 3px;
+      }
+      .job li::before {
+        content: "▸";
+        position: absolute;
+        left: 0;
+        color: var(--accent);
+      }
+      .stack {
+        margin-top: 5px;
+        font-size: 10.6px;
+        color: var(--muted);
+      }
+      .stack b {
+        color: var(--ink);
+      }
+
+      .skills p {
+        margin-bottom: 6px;
+      }
+      .skills b {
+        color: var(--ink);
+      }
+
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+      }
+      footer {
+        margin-top: 14px;
+        padding-top: 6px;
+        border-top: 1px solid var(--line);
+        font-size: 8.8px;
+        color: var(--muted);
+        font-family: "SFMono-Regular", "Consolas", monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Alexander Polyakov</h1>
+      <div class="role">
+        Senior AI / Python Engineer — LLM Agents · RAG · MCP · Evaluation
+      </div>
+      <div class="contacts">
+        <span
+          ><a href="mailto:backstabe@gmail.com">backstabe@gmail.com</a></span
+        >
+        <span>+995 555 625 979</span>
+        <span>Telegram: @Aectan</span>
+        <span><b>Georgia / Remote / Anywhere</b></span>
+        <span>Russian / English</span>
+      </div>
+      <div class="contacts" style="margin-top: 3px">
+        <span>Experience: <b>10+ yrs backend · 5+ yrs AI / LLM</b></span>
+      </div>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p class="about">
+        AI / Python Engineer with 10+ years of backend architecture experience
+        (highload, distributed systems, Kubernetes). For the last ~3 years I've
+        been building AI infrastructure: LLM agents, RAG systems, MCP, Skills,
+        and evaluation pipelines — tools used by <b>100+ developers</b> across
+        the company. I've launched products from scratch and led teams.
+        Specialization: agentic workflows, retrieval-augmented generation,
+        hallucination control, end-to-end ownership. Stack: Python, FastAPI, LLM
+        APIs (OpenAI / Claude / Gemini), vector search, Kubernetes, PostgreSQL.
+      </p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="job">
+        <div class="job-head">
+          <span class="job-title"
+            >DFuture
+            <span class="at">— AI / Backend Engineer (outstaff)</span></span
+          >
+          <span class="job-date">Nov 2023 — present</span>
+        </div>
+        <div class="job-sub">USA, VA</div>
+        <ul>
+          <li>
+            Built 10+ AI tools and plugins for Claude Code / Codex / Cursor /
+            OpenCode — adopted by <b>100+ developers</b> across the company,
+            cutting routine cycles by ~30%.
+          </li>
+          <li>
+            Designed &amp; shipped 5+ RAG systems and MCP Skills (Model Context
+            Protocol) with retrieval pipelines and embeddings-based search over
+            10,000+ documents.
+          </li>
+          <li>
+            Implemented evaluation pipelines to measure RAG quality, reducing
+            hallucinations by ~30% (faithfulness / retrieval accuracy).
+          </li>
+          <li>
+            Engineered Spec-Driven Development and ADLC/SDLC flows as multi-step
+            agentic orchestration (supervisor / handoff patterns), speeding up
+            onboarding 2×.
+          </li>
+          <li>
+            Authored 20+ ADRs, manuals and articles; trained 50+ employees in AI
+            development practices.
+          </li>
+        </ul>
+        <div class="stack">
+          <b>Stack:</b> Python, FastAPI, LLM APIs (OpenAI / Claude / Gemini),
+          RAG, MCP, embeddings, vector search, prompt engineering.
+        </div>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <span class="job-title"
+            >AbsolutTech LLC
+            <span class="at">— Lead Developer / Solution Architect</span></span
+          >
+          <span class="job-date">Nov 2021 — Nov 2022</span>
+        </div>
+        <div class="job-sub">Moscow, Absolut Insurance Group</div>
+        <ul>
+          <li>
+            Launched an insurance anti-fraud product from scratch in ~6 months:
+            requirements gathering, architecture design, and bringing it to
+            production.
+          </li>
+          <li>
+            Architected the evolution from MVP monolith → Docker → CI/CD →
+            extraction of 5+ critical microservices → Kubernetes.
+          </li>
+          <li>
+            Led &amp; hired a team of <b>6</b> (2 backend, 2 fullstack, QA,
+            DevOps): 30+ interviews, onboarding, Kanban, cross-review.
+          </li>
+        </ul>
+        <div class="stack">
+          <b>Stack:</b> Python, AI / ML, Keras, PostgreSQL, Kubernetes, Docker,
+          Keycloak, RabbitMQ, Sidekiq, Ruby 3.1, Rails 7, Vue.js.
+        </div>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <span class="job-title"
+            >Balance-Platform LLC
+            <span class="at">— Senior Developer</span></span
+          >
+          <span class="job-date">Jan 2020 — Nov 2021</span>
+        </div>
+        <div class="job-sub">Moscow</div>
+        <ul>
+          <li>
+            Built a highload distributed credit application scoring system with
+            integrations to 5+ banks.
+          </li>
+          <li>
+            Optimized messaging via RabbitMQ, reducing processing latency by
+            ~25%; developed a statistics service in Elixir.
+          </li>
+        </ul>
+        <div class="stack">
+          <b>Stack:</b> Ruby 2.7, Elixir, Rails 5, PostgreSQL, Kubernetes,
+          RabbitMQ, Elasticsearch.
+        </div>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <span class="job-title"
+            >Global Search LLC <span class="at">— Developer</span></span
+          >
+          <span class="job-date">Sep 2018 — Nov 2020</span>
+        </div>
+        <div class="job-sub">Saint Petersburg</div>
+        <ul>
+          <li>
+            Developed the first insurance aggregator in Russia: billing
+            integration with automated payouts, anti-fraud module.
+          </li>
+          <li>
+            Migrated Rails 4 → 5 with zero downtime; set up CI/CD, cutting the
+            release cycle by ~50%.
+          </li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <span class="job-title"
+            >Go-promo / Neuron digital
+            <span class="at">— Ruby / Golang Developer</span></span
+          >
+          <span class="job-date">May 2016 — Feb 2018</span>
+        </div>
+        <div class="job-sub">Moscow</div>
+        <ul>
+          <li>
+            Built highload services for a media holding; designed 10+ Swagger
+            API endpoints.
+          </li>
+          <li>Integrated an AI content pre-moderation system.</li>
+          <li>
+            Implemented analytics on Elasticsearch and ClickHouse over millions
+            of events; messaging via RabbitMQ.
+          </li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <span class="job-title"
+            >PolexGroup <span class="at">— Programmer</span></span
+          >
+          <span class="job-date">Jan 2014 — May 2016</span>
+        </div>
+        <div class="job-sub">Moscow</div>
+        <ul>
+          <li>
+            Developed 10+ corporate websites, enhanced a CRM, and built a web
+            application for engineering calculations.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <p>
+        <b>AI / LLM:</b> Python · RAG · LLM agents · MCP · evaluation /
+        hallucination control · embeddings · vector search · prompt engineering
+        · LLM APIs (OpenAI / Claude / Gemini) · function calling / tool use ·
+        structured output · agentic orchestration (supervisor / handoff) ·
+        LangChain · LangGraph · pgvector
+      </p>
+      <p>
+        <b>Backend:</b> FastAPI · Ruby on Rails · Go / Golang · Node.js ·
+        JavaScript · GraphQL
+      </p>
+      <p>
+        <b>Data / Infra:</b> PostgreSQL · Elasticsearch · ClickHouse · MongoDB ·
+        Redis · RabbitMQ · Kafka
+      </p>
+      <p>
+        <b>DevOps:</b> Kubernetes · Docker · CI/CD · Git / code review · Linux
+      </p>
+      <p>
+        <b>Other:</b> architecture / highload · end-to-end ownership · team
+        leadership · business analysis
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p>
+        <b>Synergy University, Moscow</b> — Information Systems and
+        Technologies. Development, maintenance, and security of information
+        systems.
+      </p>
+    </section>
+
+    <footer>
+      Alexander Polyakov · backstabe@gmail.com · +995 555 625 979 · Telegram
+      @Aectan
+    </footer>
+  </body>
+</html>
