@@ -303,6 +303,31 @@ h1 .grad {
 .pill:hover { border-color: var(--accent); transform: translateY(-2px); color: var(--text); }
 .pill svg { width: 16px; height: 16px; fill: currentColor; }
 
+/* ---------- Lang switch ---------- */
+.hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lang-switch { display: flex; }
+.lang-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--stroke);
+  color: var(--muted);
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.lang-btn:hover { border-color: var(--accent); color: var(--accent); }
+
 /* ---------- Footer ---------- */
 .footer {
   max-width: 880px;
