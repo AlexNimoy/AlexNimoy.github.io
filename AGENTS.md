@@ -15,6 +15,7 @@ Personal CV/Resume site for Alexander Polyakov.
 | `index.html` | Main CV page (web) — interactive, styled, responsive |
 | `cv-print.html` | Print-optimized CV page — A4 layout, minimal styling |
 | `style.css` | Styles for `index.html` |
+| `update-css-hash.sh` | Updates CSS cache-busting hash in all HTML files |
 | `Alexander_Polyakov_CV.pdf` | Exported PDF from `cv-print.html` |
 | `favicon.ico` | Site icon |
 | `.github/workflows/deploy.yml` | GitHub Actions deploy pipeline |
@@ -39,6 +40,18 @@ The PDF is generated from `cv-print.html` using Google Chrome headless:
 On every push to `main`, GitHub Actions automatically deploys the repository root to GitHub Pages.
 
 No build step needed — just commit and push.
+
+## CSS Cache Busting
+
+All HTML files reference `style.css` with a hash query string (e.g. `style.css?v=b8481d91`) so browsers always load the latest styles.
+
+After editing `style.css`, run:
+
+```bash
+./update-css-hash.sh
+```
+
+This recomputes the MD5 hash of `style.css` and updates `?v=...` in `index.html`, `ru/index.html`, and `cv-print.html`.
 
 ## Local Preview
 
