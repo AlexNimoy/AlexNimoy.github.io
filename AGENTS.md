@@ -10,15 +10,15 @@ Personal CV/Resume site for Alexander Polyakov.
 
 ## File Structure
 
-| File | Purpose |
-|------|---------|
-| `index.html` | Main CV page (web) — interactive, styled, responsive |
-| `cv-print.html` | Print-optimized CV page — A4 layout, minimal styling |
-| `style.css` | Styles for `index.html` |
-| `update-css-hash.sh` | Updates CSS cache-busting hash in all HTML files |
-| `Alexander_Polyakov_CV.pdf` | Exported PDF from `cv-print.html` |
-| `favicon.ico` | Site icon |
-| `.github/workflows/deploy.yml` | GitHub Actions deploy pipeline |
+| File                           | Purpose                                              |
+| ------------------------------ | ---------------------------------------------------- |
+| `index.html`                   | Main CV page (web) — interactive, styled, responsive |
+| `cv-print.html`                | Print-optimized CV page — A4 layout, minimal styling |
+| `style.css`                    | Styles for `index.html`                              |
+| `update-css-hash.sh`           | Updates CSS cache-busting hash in all HTML files     |
+| `Alexander_Polyakov_CV.pdf`    | Exported PDF from `cv-print.html`                    |
+| `favicon.ico`                  | Site icon                                            |
+| `.github/workflows/deploy.yml` | GitHub Actions deploy pipeline                       |
 
 ## PDF Generation
 

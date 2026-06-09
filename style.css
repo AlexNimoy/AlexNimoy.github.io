@@ -309,15 +309,15 @@ h1 .grad {
   align-items: center;
   justify-content: space-between;
 }
-.lang-switch { display: flex; }
+.lang-switch { display: flex; align-items: center; gap: 2px; }
 .lang-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 6px 12px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid var(--stroke);
+  background: transparent;
+  border: 1px solid transparent;
   color: var(--muted);
   font-family: 'JetBrains Mono', ui-monospace, monospace;
   font-size: 11px;
@@ -326,7 +326,19 @@ h1 .grad {
   text-transform: uppercase;
   transition: border-color 0.15s ease, color 0.15s ease;
 }
-.lang-btn:hover { border-color: var(--accent); color: var(--accent); }
+.lang-btn:hover { color: var(--accent); }
+.lang-btn.lang-active {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.04);
+  cursor: default;
+}
+.lang-sep {
+  color: var(--stroke);
+  font-size: 11px;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  user-select: none;
+}
 
 /* ---------- Footer ---------- */
 .footer {
