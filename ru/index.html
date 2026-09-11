@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Александр Поляков - AI Platform / LLM Systems Engineer</title>
+    <meta
+      name="description"
+      content="Александр Поляков - AI Platform / LLM Systems Engineer. Мультиагентные контуры (MCP), Advanced RAG, eval-пайплайны, 12+ лет бэкенд-инженерии и распределенных систем."
+    />
+    <meta
+      property="og:title"
+      content="Александр Поляков - AI Platform / LLM Systems Engineer"
+    />
+    <meta
+      property="og:description"
+      content="AI Platform / LLM Systems Engineer · LLM-агенты · Advanced RAG · MCP · Eval-пайплайны · 12+ лет backend &amp; distributed systems"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="../favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css?v=2e0bc881" />
+  </head>
+
+  <body>
+    <main class="page">
+      <section class="hero" id="top">
+        <div class="hero-top">
+          <span class="status"><span class="dot"></span> Доступен для работы</span>
+          <nav class="lang-switch">
+            <a class="lang-btn" href="/">EN</a>
+            <span class="lang-sep">/</span>
+            <span class="lang-btn lang-active">RU</span>
+          </nav>
+        </div>
+        <p class="eyebrow">
+          AI Platform / LLM Systems Engineer · Solution Architect · Tech Lead
+        </p>
+        <h1>
+          Привет, я Александр Поляков. Строю
+          <span class="grad">AI-платформы</span> и LLM-системы
+        </h1>
+        <p class="lede">
+          AI Platform &amp; LLM Systems Engineer с 12+ годами опыта в бэкенд-инженерии и распределенных системах. Специализируюсь на проектировании production-ready AI-платформ, мультиагентных контуров (MCP, supervisor/handoff) и высокопроизводительных RAG-архитектур.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:backstabe@gmail.com"
+            >Написать</a
+          >
+          <a class="btn btn-ghost" href="../Alexander_Polyakov_CV.pdf" download
+            >Скачать CV (PDF)</a
+          >
+          <a
+            class="btn btn-ghost"
+            href="https://t.me/Aectan"
+            target="_blank"
+            rel="noopener"
+            >Telegram</a
+          >
+        </div>
+        <div class="meta">
+          <span>Формат: <b>Удалённо · Полная занятость</b></span>
+          <span>Опыт: <b>12+ лет backend · 5+ лет AI / LLM</b></span>
+          <span>Языки: <b>Русский (Родной) / Английский (B2)</b></span>
+        </div>
+      </section>
+
+      <section class="panel" id="about">
+        <div class="panel-header">
+          <span class="panel-title">Обо мне</span>
+        </div>
+        <p>
+          AI Platform &amp; LLM Systems Engineer с 12+ годами опыта в бэкенд-инженерии и распределенных системах. Специализируюсь на проектировании production-ready AI-платформ, мультиагентных контуров (MCP, supervisor/handoff) и высокопроизводительных RAG-архитектур.
+        </p>
+        <div style="margin-top: 14px; display: flex; flex-direction: column; gap: 8px;">
+          <p style="margin: 0; font-weight: 600; color: var(--text);">Ключевой фокус:</p>
+          <ul class="points">
+            <li><strong>LLM &amp; Multi-Agent:</strong> проектирование автономных агентных воркфлоу, разработка MCP-серверов, внедрение автоматизированных eval-пайплайнов (Ragas, DeepEval, LLM-as-a-Judge, guardrails).</li>
+            <li><strong>Advanced RAG:</strong> масштабируемый гибридный поиск (dense + sparse / BM25), контекстный чанкинг, реранкинг, векторные базы (Qdrant, pgvector).</li>
+            <li><strong>Engineering &amp; Platform:</strong> асинхронный Python (FastAPI, Asyncio), распределенные очереди (Kafka, RabbitMQ), System Design, Kubernetes, оптимизация затрат на инференс (кэширование, маршрутизация моделей).</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="panel" id="experience">
+        <div class="panel-header">
+          <span class="panel-title">Опыт работы</span>
+          <span class="panel-meta">12+ лет в инженерии</span>
+        </div>
+        <div class="experience-list">
+          <div class="experience-item">
+            <div class="experience-head">
+              <h3>DFG <span class="at">- Senior AI / LLM Systems Engineer</span></h3>
+              <div class="experience-meta"><span>Ноя 2023 - Н.в.</span></div>
+            </div>
+            <p>
+              США · <a href="https://dfuture.co/" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: none;">dfuture.co</a> · Информационные технологии, разработка ПО
+            </p>
+            <ul class="points">
+              <li>
+                <strong>AI Tooling &amp; Developer Experience:</strong> Спроектировал и внедрил внутреннюю экосистему из 10+ AI-инструментов, MCP-серверов и расширений для Cursor, Claude Code и OpenCode. Инструменты внедрены в ежедневный воркфлоу 100+ инженеров компании, что сократило time-to-market фичей и рутинные затраты на разработку на ~20%.
+              </li>
+              <li>
+                <strong>Production RAG &amp; Vector Search:</strong> Разработал и вывел в продакшен 5+ RAG-пайплайнов с гибридным поиском (dense + sparse / BM25) на базе Qdrant и PostgreSQL (pgvector). Реализовал контекстно-зависимый динамический чанкинг и реранкинг (Cohere Rerank / cross-encoders), снизив latency выборки и повысив релевантность ответов (Context Precision).
+              </li>
+              <li>
+                <strong>Model Context Protocol (MCP) &amp; Tool Calling:</strong> Архитектурно выстроил слой интеграции корпоративных систем через протокол MCP, обеспечив безопасный context retrieval и выполнение Function Calling / tool use в мультиагентных контурах.
+              </li>
+              <li>
+                <strong>LLM Evaluation &amp; Guardrails:</strong> Построил автоматизированный пайплайн синтетической оценки качества генерации (Ragas, DeepEval, LLM-as-a-Judge). Внедрил метрики Faithfulness, Context Recall и семантические guardrails, что позволило систематически отслеживать регрессии промптов и снизило уровень фактологических галлюцинаций в проде.
+              </li>
+              <li>
+                <strong>Мультиагентная оркестрация:</strong> Спроектировал агентные воркфлоу (паттерны Supervisor, Handoff, stateful-графы) для автоматизации сложных задач анализа данных и генерации кода; внедрил методологию Spec-Driven Development.
+              </li>
+              <li>
+                <strong>Архитектурное лидерство:</strong> Оформил 20+ Architectural Decision Records (ADR) по интеграции LLM и управлению расходами на токенизацию; провел серию воркшопов по prompt-инжинирингу и AI-first разработке для 50+ инженеров.
+              </li>
+            </ul>
+            <ul class="tags">
+              <li>Python (Asyncio, FastAPI)</li>
+              <li>Golang</li>
+              <li>MCP</li>
+              <li>Qdrant</li>
+              <li>OpenAI / Claude APIs</li>
+              <li>LangGraph</li>
+              <li>Ragas</li>
+              <li>Docker</li>
+              <li>Kubernetes</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-head">
+              <h3>
+                Independent Consultant / AI Solutions
+                <span class="at">- AI &amp; Software Architecture Consultant</span>
+              </h3>
+              <div class="experience-meta">
+                <span>Ноя 2022 - Ноя 2023</span>
+              </div>
+            </div>
+            <p>Консалтинг и AI-трансформация для B2B и стартапов · 1 год 1 месяц</p>
+            <ul class="points">
+              <li>
+                <strong>AI-трансформация для B2B и стартапов:</strong> Консультировал фаундеров и CTO 6+ технологических компаний (FinTech, EdTech, LegalTech) по проектированию архитектуры генеративного ИИ, выбору моделей и интеграции LLM в существующие бэкенд-системы.
+              </li>
+              <li>
+                <strong>MVP &amp; Production PoC:</strong> Спроектировал и вывел в прод 4+ коммерческих решения: интеллектуальные ассистенты поддержки с интеграцией Function Calling/Tools, системы семантического поиска по закрытым корпоративным базам знаний и автоматизированные пайплайны обработки неструктурированных документов.
+              </li>
+              <li>
+                <strong>Оптимизация затрат (Unit Economics):</strong> Реализовал стратегии сокращения расходов на API инференса (семантическое кэширование через Redis/GPTCache, динамический роутинг между легковесными и тяжелыми моделями, оптимизация промптов), что снизило затраты клиентов на токены на 35–50%.
+              </li>
+              <li>
+                <strong>RAG &amp; Векторные базы данных:</strong> Спроектировал пайплайны эмбеддингов и семантического поиска на базе pgvector и Qdrant; внедрил многоуровневый чанкинг и метафильтрацию для повышения точности извлечения контекста в условиях строгого SLA по задержке (low-latency).
+              </li>
+              <li>
+                <strong>Технический аудит и надежность:</strong> Проводил комплексный аудит API-архитектур и очередей сообщений под высокие пиковые нагрузки; внедрял rate-limiting, ретраи с экспоненциальной задержкой (exponential backoff) и fallback-стратегии при сбоях внешних LLM-провайдеров.
+              </li>
+            </ul>
+            <ul class="tags">
+              <li>Python (FastAPI, Asyncio)</li>
+              <li>OpenAI API</li>
+              <li>Anthropic Claude</li>
+              <li>LangChain</li>
+              <li>LlamaIndex</li>
+              <li>pgvector</li>
+              <li>PostgreSQL</li>
+              <li>Qdrant</li>
+              <li>Docker</li>
+              <li>Redis</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-head">
+              <h3>
+                AbsolutTech LLC
+                <span class="at">- Lead Developer / Solution Architect</span>
+              </h3>
+              <div class="experience-meta">
+                <span>Ноя 2021 - Ноя 2022</span>
+              </div>
+            </div>
+            <p>Москва · Группа Абсолют Страхование · 1 год 1 месяц</p>
+            <ul class="points">
+              <li>
+                Запустил с нуля продукт для выявления мошеннических действий (антифрод) в страховании за ~6 месяцев: от сбора требований до вывода в промышленную эксплуатацию.
+              </li>
+              <li>
+                Спроектировал и внедрил ML-пайплайн детекции аномалий с инференсом моделей в реальном времени через FastAPI, RabbitMQ и Docker в Kubernetes.
+              </li>
+              <li>
+                Провёл архитектурную эволюцию системы: от монолитного MVP к разделению на 5+ критических микросервисов в Kubernetes.
+              </li>
+              <li>
+                Сформировал и возглавил инженерную команду из 6 человек: выстроил процессы онбординга, Kanban и практику кросс-ревью кода.
+              </li>
+            </ul>
+            <ul class="tags">
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>AI / ML</li>
+              <li>Keras</li>
+              <li>PostgreSQL</li>
+              <li>Kubernetes</li>
+              <li>Docker</li>
+              <li>RabbitMQ</li>
+              <li>Ruby on Rails 7</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-head">
+              <h3>
+                Balance-Platform LLC <span class="at">- Senior Backend / Data Engineer</span>
+              </h3>
+              <div class="experience-meta">
+                <span>Фев 2020 - Ноя 2021</span>
+              </div>
+            </div>
+            <p>Москва · Финтех · 1 год 10 месяцев</p>
+            <ul class="points">
+              <li>
+                Разрабатывал распределенную систему скоринга кредитных заявок с интеграцией к API 5+ банков в условиях жестких SLA по latency.
+              </li>
+              <li>
+                Спроектировал конвейеры потоковой обработки и извлечения признаков (feature extraction) под высокие нагрузки; разработал low-latency микросервис агрегации статистики на Elixir.
+              </li>
+              <li>
+                Оптимизировал сложные аналитические выборки в PostgreSQL и Elasticsearch, устранив узкие места в очередях обработки заявок.
+              </li>
+            </ul>
+            <ul class="tags">
+              <li>Python</li>
+              <li>Elixir</li>
+              <li>Ruby on Rails</li>
+              <li>PostgreSQL</li>
+              <li>RabbitMQ</li>
+              <li>Elasticsearch</li>
+              <li>Kubernetes</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-head">
+              <h3>
+                Global Search LLC <span class="at">- Backend Engineer</span>
+              </h3>
+              <div class="experience-meta">
+                <span>Сен 2018 - Янв 2020</span>
+              </div>
+            </div>
+            <p>Санкт-Петербург · Разработка ПО · 1 год 5 месяцев</p>
+            <ul class="points">
+              <li>
+                Разрабатывал ключевые модули страхового агрегатора: отказоустойчивый биллинговый сервис с автоматическими выплатами и алгоритмические компоненты первичного антифрода.
+              </li>
+              <li>
+                Оптимизировал транзакционную нагрузку на базу данных PostgreSQL и настроил автоматизированные CI/CD-пайплайны, сократив цикл поставки релизов в 2 раза.
+              </li>
+            </ul>
+            <ul class="tags">
+              <li>Ruby on Rails</li>
+              <li>PostgreSQL</li>
+              <li>Redis</li>
+              <li>Docker</li>
+              <li>CI/CD</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-head">
+              <h3>
+                Go-promo, Neuron digital
+                <span class="at">- Backend &amp; Data Engineer</span>
+              </h3>
+              <div class="experience-meta">
+                <span>Май 2016 - Фев 2018</span>
+              </div>
+            </div>
+            <p>
+              Москва · <a href="https://neuron.digital" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: none;">neuron.digital</a> · Разработка ПО · 1 год 10 месяцев
+            </p>
+            <ul class="points">
+              <li>
+                Проектировал высокопроизводительные бэкенд-сервисы и ETL-конвейеры для медиаплатформ с миллионной аудиторией.
+              </li>
+              <li>
+                Реализовал аналитическое хранилище и поисковые механизмы на базе ClickHouse и Elasticsearch для быстрой агрегации и выборки больших массивов данных.
+              </li>
+              <li>
+                Спроектировал асинхронную шину событий через RabbitMQ для надежной межсервисной коммуникации.
+              </li>
+            </ul>
+            <ul class="tags">
+              <li>Python</li>
+              <li>Golang</li>
+              <li>PostgreSQL</li>
+              <li>ClickHouse</li>
+              <li>Elasticsearch</li>
+              <li>RabbitMQ</li>
+              <li>Docker</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-head">
+              <h3>
+                PolexGroup <span class="at">- Software Engineer</span>
+              </h3>
+              <div class="experience-meta">
+                <span>Янв 2014 - Май 2016</span>
+              </div>
+            </div>
+            <p>
+              Москва · <a href="https://polexgroup.ru" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: none;">polexgroup.ru</a> · 2 года 5 месяцев
+            </p>
+            <ul class="points">
+              <li>
+                Разрабатывал модули ERP/CRM и инженерно-расчетные алгоритмические сервисы для внутренних бизнес-процессов компании.
+              </li>
+              <li>
+                Проектировал реляционные схемы данных и оптимизировал сложные SQL-запросы в PostgreSQL для повышения производительности отчетов.
+              </li>
+            </ul>
+            <ul class="tags">
+              <li>Python</li>
+              <li>PostgreSQL</li>
+              <li>Linux</li>
+              <li>Git</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="skills">
+        <div class="panel-header">
+          <span class="panel-title">Навыки и стек</span>
+          <span class="panel-meta">12+ лет опыта</span>
+        </div>
+
+        <div class="skill-group">
+          <h4>AI / LLM &amp; Multi-Agent</h4>
+          <div class="chips">
+            <span class="chip">LangGraph</span>
+            <span class="chip">MCP (Model Context Protocol)</span>
+            <span class="chip">RAG &amp; Hybrid Search</span>
+            <span class="chip">LlamaIndex</span>
+            <span class="chip">LangChain</span>
+            <span class="chip">LLM Evaluation</span>
+            <span class="chip">Ragas</span>
+            <span class="chip">DeepEval</span>
+            <span class="chip">LLM-as-a-Judge</span>
+            <span class="chip">Guardrails</span>
+            <span class="chip">Qdrant</span>
+            <span class="chip">Vector Search</span>
+            <span class="chip">Embeddings</span>
+            <span class="chip">Function Calling / Tool Use</span>
+            <span class="chip">Multi-agent orchestration</span>
+            <span class="chip">Langfuse</span>
+            <span class="chip">LiteLLM</span>
+            <span class="chip">vLLM</span>
+            <span class="chip">OpenAI / Claude APIs</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4>Backend &amp; Architecture</h4>
+          <div class="chips">
+            <span class="chip">Python</span>
+            <span class="chip">Asyncio</span>
+            <span class="chip">FastAPI</span>
+            <span class="chip">Pydantic</span>
+            <span class="chip">Golang</span>
+            <span class="chip">System Design</span>
+            <span class="chip">SQLAlchemy</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Ruby on Rails</span>
+            <span class="chip">Elixir</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4>Data &amp; Messaging</h4>
+          <div class="chips">
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">pgvector</span>
+            <span class="chip">Qdrant</span>
+            <span class="chip">Apache Kafka</span>
+            <span class="chip">RabbitMQ</span>
+            <span class="chip">Redis</span>
+            <span class="chip">Elasticsearch</span>
+            <span class="chip">ClickHouse</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4>Platform, DevOps &amp; ML</h4>
+          <div class="chips">
+            <span class="chip">Kubernetes</span>
+            <span class="chip">Docker</span>
+            <span class="chip">CI/CD</span>
+            <span class="chip">Linux</span>
+            <span class="chip">Git</span>
+            <span class="chip">PyTorch</span>
+            <span class="chip">pandas</span>
+            <span class="chip">NumPy</span>
+            <span class="chip">Team Leadership</span>
+            <span class="chip">Solution Architecture</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="education">
+        <div class="panel-header">
+          <span class="panel-title">Образование</span>
+        </div>
+        <p>
+          <strong>Московский финансово-промышленный университет (Синергия)</strong> (Moscow Financial and Industrial University), 2025
+        </p>
+        <p class="muted" style="margin-top: 6px">
+          Высшее: Information Systems &amp; Software Engineering, Information Systems Software Development and Information Security (Разработка программного обеспечения информационных систем и информационная безопасность).
+        </p>
+      </section>
+
+      <section class="panel highlight" id="contact">
+        <div class="panel-header">
+          <span class="panel-title">Контакт</span>
+          <span class="panel-meta">Открыт к предложениям</span>
+        </div>
+        <p>
+          Открыт к ролям AI Platform / LLM Systems Engineer, Solution Architect, Tech Lead (удалённо, полная занятость). Предпочитаю короткие созвоны, чёткие задачи и полную инженерную ответственность за продукт.
+        </p>
+        <div class="cta">
+          <a class="btn btn-primary" href="mailto:backstabe@gmail.com"
+            >backstabe@gmail.com</a
+          >
+          <a class="btn btn-ghost" href="#top">Наверх</a>
+        </div>
+        <div class="social-links">
+          <a
+            class="pill"
+            href="https://t.me/Aectan"
+            target="_blank"
+            rel="noopener"
+            title="Telegram"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M21.5 3.5 3.7 10.6c-.8.3-.8 1.1-.1 1.4l4.3 1.7 1.8 5.6c.2.6 1 .7 1.4.2l2.5-3 4.5 3.4c.6.5 1.5.1 1.7-.7l3-14c.2-.8-.6-1.5-1.3-1.1z"
+              ></path>
+            </svg>
+            Telegram
+          </a>
+          <a class="pill" href="mailto:backstabe@gmail.com" title="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm10 8.7 8.5-5.3H3.5L12 12.7zM3 8.2V18h18V8.2l-9 5.6-9-5.6z"
+              ></path>
+            </svg>
+            Email
+          </a>
+          <a
+            class="pill"
+            href="https://www.linkedin.com/in/alexanderpolykov"
+            target="_blank"
+            rel="noopener"
+            title="LinkedIn"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2zM8 19H5v-9h3v9zM6.5 8.25A1.75 1.75 0 1 1 8.3 6.5a1.75 1.75 0 0 1-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93-.78 0-1.62.6-1.62 1.89V19h-3v-9h2.9v1.3a3.11 3.11 0 0 1 2.7-1.4c1.55 0 3.36.86 3.36 3.66V19z"
+              ></path>
+            </svg>
+            LinkedIn
+          </a>
+          <a
+            class="pill"
+            href="https://github.com/AlexNimoy"
+            target="_blank"
+            rel="noopener"
+            title="GitHub"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 .5C5.6.5.5 5.6.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.2-1.1-1.6-1.1-1.6-.9-.6.1-.6.1-.6 1 .1 1.6 1 1.6 1 .9 1.6 2.4 1.1 3 .8.1-.7.4-1.1.7-1.3-2.6-.3-5.2-1.3-5.2-5.8 0-1.3.5-2.3 1.2-3.2 0-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.3 11.3 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.1 2.8.1 3.1.8.9 1.2 2 1.2 3.2 0 4.5-2.6 5.5-5.2 5.8.4.4.8 1 .8 2v3c0 .3.2.7.8.6A10.97 10.97 0 0 0 23.5 12C23.5 5.6 18.4.5 12 .5z"
+              ></path>
+            </svg>
+            GitHub
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="logo">Александр Поляков</div>
+      <div class="footer-meta">Обновлено: <span id="year"></span></div>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+  </body>
+</html>
