@@ -36,16 +36,17 @@ AI Platform & LLM Systems Engineer with 12+ years of experience in backend engin
 *IT, Software Development*
 
 - **AI Tooling & Developer Experience:** Architected and deployed an internal ecosystem of 10+ AI tools, MCP servers, and extensions for Cursor, Claude Code, and OpenCode across 100+ engineers; cut routine development overhead and time-to-market by ~20%.
+- **CI/CD & AI QA Automation:** Configured automated CI/CD pipelines and automated QA workflows using AI for test scenario generation and staging verification, accelerating release cycles and catching regressions early.
 - **Production RAG & Vector Search:** Built and shipped 5+ production RAG pipelines with hybrid search (dense + sparse / BM25) on Qdrant and PostgreSQL (pgvector). Implemented context-aware dynamic chunking and reranking (Cohere Rerank / cross-encoders), reducing latency and increasing Context Precision.
 - **Model Context Protocol (MCP) & Tool Calling:** Designed enterprise system integration layer via MCP, ensuring secure context retrieval and reliable Function Calling / tool use across multi-agent workflows.
 - **LLM Evaluation & Guardrails:** Built automated synthetic evaluation pipeline (Ragas, DeepEval, LLM-as-a-Judge) with Faithfulness, Context Recall, and semantic guardrails, systematically mitigating regressions and hallucinations in production.
 - **Multi-Agent Orchestration:** Designed agentic workflows (Supervisor, Handoff, stateful graphs) automating complex data analysis and code generation; introduced Spec-Driven Development.
 - **Architectural Leadership:** Authored 20+ ADRs on LLM integration and token spend management; delivered prompt engineering & AI-first workshops for 50+ engineers.
-- **Stack:** Python (Asyncio, FastAPI), Golang, MCP, Qdrant, OpenAI / Claude APIs, LangGraph, Ragas, Docker, Kubernetes.
+- **Stack:** Python (Asyncio, FastAPI), Golang, MCP, Qdrant, OpenAI / Claude APIs, LangGraph, Ragas, CI/CD, Docker, Kubernetes.
 
-### Independent Consultant / AI Solutions — AI & Software Architecture Consultant
+### Independent Practice / AI Solutions — Fractional AI & Solutions Architect
 *Nov 2022 – Nov 2023 (1 yr 1 mo)*  
-*B2B & Startup AI Transformation*
+*B2B & Startup AI Architecture & Engineering*
 
 - **B2B & Startup AI Transformation:** Advised founders and CTOs across 6+ tech companies (FinTech, EdTech, LegalTech) on GenAI system architecture, model selection, and backend integration.
 - **MVP & Production PoC:** Shipped 4+ commercial solutions: intelligent support agents with Function Calling/Tools, semantic search over private knowledge bases, and document processing pipelines.
